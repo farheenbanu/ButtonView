@@ -99,14 +99,6 @@
                                     <action selector="smallButtonOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="3re-AC-C6D"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fr2-Dp-Hdy">
-                                <rect key="frame" x="60.5" y="396.5" width="254" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="254" id="VN4-mh-F60"/>
-                                    <constraint firstAttribute="height" constant="42" id="i40-yu-Pfp"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -120,9 +112,7 @@
                             <constraint firstItem="LO8-2k-vgA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XTn-Hb-7Vw"/>
                             <constraint firstItem="LO8-2k-vgA" firstAttribute="top" secondItem="C5g-1j-2HI" secondAttribute="bottom" constant="25" id="fSa-zk-lnG"/>
                             <constraint firstItem="LO8-2k-vgA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.07" id="hRR-V5-srF"/>
-                            <constraint firstItem="Fr2-Dp-Hdy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iFF-QO-qed"/>
                             <constraint firstItem="C5g-1j-2HI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="jle-JJ-XhO"/>
-                            <constraint firstItem="DkG-QB-uV7" firstAttribute="top" secondItem="Fr2-Dp-Hdy" secondAttribute="bottom" constant="25" id="m4K-Aq-0UO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
