@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ButtonView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LO8-2k-vgA" customClass="ButtonView" customModule="ButtonView" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="590.5" width="300" height="46.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleForLB" value="Sign up"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="imageForSB" value="if_icon-play_211876"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="smallBtnBackgroundColor">
+                                        <color key="value" white="0.33333333329999998" alpha="0.4806292808219178" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="viewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="378-Gs-zao"/>
+                                    <action selector="viewActionTouchUPOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="oJW-jv-t8V"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DkG-QB-uV7" customClass="ButtonView" customModule="ButtonView" customModuleProvider="target">
+                                <rect key="frame" x="132" y="463.5" width="112.5" height="33.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="imageForSB" value="if_icon-play_211876"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleForLB" value="Log in"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="smallBtnBackgroundColor">
+                                        <color key="value" white="0.50434027777777779" alpha="0.51375214041095896" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="longerSideBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iXZ-b3-2N0"/>
+                                    <action selector="smallSide:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Gxo-S6-vqR"/>
+                                </connections>
+                            </view>
+                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C5g-1j-2HI" customClass="ButtonView" customModule="ButtonView" customModuleProvider="target">
+                                <rect key="frame" x="94" y="522" width="187.5" height="44"/>
+                                <color key="backgroundColor" red="0.3229539394" green="0.82853299380000001" blue="0.84318333860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="PT9-2g-uvU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="imageForSB" value="play"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleForLB" value="Play"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="smallBtnBackgroundColor">
+                                        <color key="value" white="1" alpha="0.5275577910958904" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.50434027780000001" alpha="0.51375214039999995" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="bigButtonTouchInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zFc-v9-qEQ"/>
+                                    <action selector="smallButtonOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="3re-AC-C6D"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DkG-QB-uV7" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="18P-gy-OYI"/>
+                            <constraint firstItem="C5g-1j-2HI" firstAttribute="top" secondItem="DkG-QB-uV7" secondAttribute="bottom" constant="25" id="3mg-Co-gMu"/>
+                            <constraint firstItem="C5g-1j-2HI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4CG-3x-3Yq"/>
+                            <constraint firstItem="LO8-2k-vgA" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="8BQ-90-vck"/>
+                            <constraint firstItem="DkG-QB-uV7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" id="QIe-cF-nmj"/>
+                            <constraint firstItem="DkG-QB-uV7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TQ5-jZ-0F1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LO8-2k-vgA" secondAttribute="bottom" constant="30" id="TS5-5c-nvs"/>
+                            <constraint firstItem="LO8-2k-vgA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XTn-Hb-7Vw"/>
+                            <constraint firstItem="LO8-2k-vgA" firstAttribute="top" secondItem="C5g-1j-2HI" secondAttribute="bottom" constant="25" id="fSa-zk-lnG"/>
+                            <constraint firstItem="LO8-2k-vgA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.07" id="hRR-V5-srF"/>
+                            <constraint firstItem="C5g-1j-2HI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="jle-JJ-XhO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnView" destination="LO8-2k-vgA" id="7VG-9l-9e6"/>
+                        <outlet property="secondBtn" destination="C5g-1j-2HI" id="zoC-WI-tuP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="192.80000000000001" y="106.59670164917542"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="if_icon-play_211876" width="128" height="128"/>
+        <image name="play" width="45" height="45"/>
+    </resources>
+</document>
